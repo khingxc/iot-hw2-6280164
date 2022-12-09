@@ -34,10 +34,6 @@ void loop() {
     toAlarm = 0;
     noTone(pBuzzerPin);
   }
-//  Serial.println(buttonVal);
-//  Serial.println(falling_edge);
-//  Serial.println(toAlarm);
-//  Serial.println("***********");
   resetButtonStatus = buttonVal;
   prevSensorValue = sensorValue;
 }
